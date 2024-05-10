@@ -1,0 +1,113 @@
+           .makeyour-ownstyle {
+            background-image:url("/public/images/section\ 1-min.jpg");
+            background-position: center;
+            background-size: cover !important;
+            background-repeat: no-repeat;
+
+            .navbar {
+                padding: 1.5rem 0 2rem 0;
+
+                @include media-min-lg {
+                    margin: 0 0 0 9.5rem;
+                }
+
+                .navbar-nav {
+                    a {
+                        font-family: "Vanio Trial";
+                        color: $pink-clr;
+                        text-align: center;
+                        @include media-min-xl {
+                            padding: 0 1.5rem;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .head {
+                font-weight: 400;
+                font-family: "Impact";
+                @include media-min-lg {
+                    font-size: 5.2rem;
+                    padding: 14.8rem 0 6rem 0;
+                }
+                .b-border{
+                    @include media-min-lg{
+                        border-top: 2px solid;
+                        border-right: 2px solid;
+                    }
+                    
+                }
+                .t-border{
+                    @include media-min-lg{
+                        border-left: 2px solid;
+                        border-bottom: 2px solid;
+                    }
+            }
+        }
+            .video-icon {
+                border: 1px solid white;
+                border-radius: 50%;
+                padding: 0.8rem;
+            }
+
+            .btn {
+                padding: 0 0 9rem 0;
+                margin-top: 2.5rem;
+
+                .btn1 {
+                    font-family: "Sulphur Point";
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    background: linear-gradient(90deg, #fd006a 0%, #d700b5 100%) !important;
+                }
+            }
+            .make h1::before{
+                @include media-min-lg{
+                    content: "";
+                    border-bottom: 2px solid #fff;
+                    position: absolute;
+                    width: 360px;
+                    border-left: 2px solid #fff;
+                    height: 120px;
+                    
+                
+                 
+                    
+                }
+            }
+            .make h1:after{
+                @include media-min-lg{
+                    content: "";
+                    border-top: 2px solid #fff;
+                    position: absolute;
+                    width: 360px;
+                    border-right: 2px solid #fff;
+                    height: 120px;
+                    right: 20%;
+                    padding-top: -10px;
+                }
+                
+            
+            }
+            .make{
+                @include media-min-lg{
+                    position: relative;
+                }
+                .child-make{
+                    @include media-min-lg{
+                        position: absolute;
+                        left:51%;
+                        font-family: Sulphur Point;
+                        font-size: 30px;
+                        letter-spacing: 0.25em;
+                        bottom: 13%;
+
+
+                    }
+                }
+               
+            }
+        }
+           

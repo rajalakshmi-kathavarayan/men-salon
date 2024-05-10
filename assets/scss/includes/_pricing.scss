@@ -1,0 +1,81 @@
+.wrapper {
+  // ================== banner section ======================
+  .pricing-banner-section {
+    background: url("/public/images/Section\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .navbar {
+      padding: 1rem 0 2rem 0;
+
+      @include media-min-lg {
+        margin: 0 0 0 9.5rem;
+      }
+      .navbar-nav {
+        a {
+          font-family: "Vanio Trial";
+          color: $pink-clr;
+          text-align: center;
+          @include media-min-xl {
+            padding: 0 1.5rem;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .banner-txt {
+      font-weight: 400;
+      font-size: 2rem;
+      font-family: "Impact";
+
+      @include media-min-lg {
+        padding: 8rem 0 10rem 0;
+        font-size: 5.2rem;
+      }
+    }
+  }
+  //   =================================== package section ===============================
+  .package-section {
+    background: url("/assets/images/pricing_sec_2.jpg");
+    background-size: cover;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+    @include media-min-xl {
+      padding: 4.5rem 12rem;
+    }
+    .package-head {
+      font-size: 3rem;
+    }
+    .package-txt {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+    .package-1 {
+      background-color: rgba(233, 104, 2, 0.9);
+      padding: 1.5rem;
+    }
+    .packages {
+      background-color: rgb(255, 255, 255, 0.1);
+      .packages-txt {
+        border-bottom: 1px dashed;
+        padding: 0.6rem 0 1.1rem 0;
+      }
+    }
+  }
+  // ============================== contact section =====================//
+  .contact-sec {
+    background-image: url("/public/images/Section\ 3.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+    @include media-min-xl {
+      padding: 2rem 12rem;
+    }
+    .contact-sec-head {
+      font-size: 2rem;
+    }
+  }
+}

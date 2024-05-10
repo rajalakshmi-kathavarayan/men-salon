@@ -1,0 +1,114 @@
+
+    // ======================= About ======================
+    .about-section{
+        background-image: url("/public/images/Section\ 2\ About\ Us.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Sulphur Point';
+        padding: 1rem;
+        @include media-min-lg{
+            padding: 4.5rem 11.5rem;
+        }
+        .abt-head{
+            @include media-min-lg{
+                font-size: 4rem;
+            }
+           
+        }
+        .about-text{
+            @include media-min-lg{
+                position: relative;
+            }
+        }
+       
+        .abt-txt{
+            font-size: 1.2rem;
+            padding: 1.8rem 0 0 0 ;
+            line-height: 40px;
+            letter-spacing: 1px;
+        }
+    }
+   
+    // ======================= services ======================
+    .service-section{
+        background-image: url("/public/images/Section\ 3\ Services-min.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 1rem;
+        font-family: 'Sulphur Point';
+        @include media-min-lg{
+            padding: 6rem 11.5rem;
+        }
+        .service-txt{
+            font-size: 1.2rem;
+            padding: 1.8rem 0 0 0 ;
+            line-height: 40px;
+            letter-spacing: 1px;
+            text-align: justify;
+        }
+        .services{
+            img{
+                height: 55px;
+                width: 55px;
+            }
+            span{
+                font-size: 25PX;
+                font-weight: 400;
+            }
+            p{
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            .service-img{
+                width: 50px;
+                height: 50px;
+                border: 1px dashed;
+                padding: .5rem;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    // ========================== Pricing =======================
+    .pricing-section{
+        background-image: url("/public/images/Section\ 4\ Pricing.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Sulphur Point';
+        padding: 1rem;
+        @include media-min-lg{
+            padding: 4rem 11.5rem;
+        }
+        .pricing-txt{
+            letter-spacing: 1px;
+        }
+        .pricings{
+            .pricings-txt{
+                border-bottom: 1px dashed;
+                padding: .6rem 0 1.1rem 0;
+            }
+        }
+    }
+
+    // ====================== Portfolio ========================
+    .portfolio-section{
+        background: linear-gradient(89.93deg, #3E283A -41.26%, #3E283A 84.55%);
+        font-family:'Sulphur Point',sans-serif !important;
+        padding: 1rem;
+       
+        .portfolio{
+            @include media-min-lg{
+                padding: 4rem 11.5rem;
+            }
+               
+            }
+            .portfolio-txt{
+                letter-spacing: 1px;
+            }
+        }
+       
+    

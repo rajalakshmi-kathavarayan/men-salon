@@ -1,0 +1,115 @@
+.wrapper {
+  .service-banner-section {
+    background-image:url("/public/images/Services\ section\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    font-family:'Sulphur Point',sans-serif !important;
+  
+
+    .navbar {
+      padding: 1rem 0 2rem 0;
+
+      @include media-min-lg {
+        margin: 0 0 0 9.5rem;
+      }
+      .navbar-nav {
+        a {
+          font-family: "Vanio Trial";
+          color: $pink-clr;
+          text-align: center;
+          @include media-min-xl {
+            padding: 0 1.5rem;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .banner-txt {
+      font-weight: 400;
+      font-size: 2rem;
+      font-family: "Impact";
+
+      @include media-min-lg {
+        padding: 8rem 0 10rem 0;
+        font-size: 5.2rem;
+      }
+    }
+  }
+  //   ============================ Provide services =========================
+  .our-service-sec {
+    background-image: url("/public/images/Services\ Section\ 2.jpg");
+    background-size: cover;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+    @include media-min-xl {
+      padding: 4.5rem 12rem;
+    }
+    .services-head {
+      @include media-min-lg {
+        font-size: 3rem;
+      }
+    }
+    .services-txt {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+    .services-imgs {
+      .service-img {
+        position: relative;
+
+        .service-txt {
+          position: absolute;
+          left: 3%;
+          top: 5%;
+          width: 30px;
+          height: 90%;
+          transform: rotate(180deg);
+          writing-mode: vertical-rl;
+          text-align: center;
+          // white-space: nowrap;
+          padding: 0 28px;
+          background: linear-gradient(30deg,#fd006a 0%, rgba(54, 43, 37, 0.73) 100%);
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  // ===========================offers section =====================
+  .offers-section{
+    background-image: url("/public/images/Services\ Section\ 3.jpg");
+    background-size: cover;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+    @include media-min-xl {
+      padding: 4.5rem 12rem;
+    }
+    .offers-head{
+      font-size: 3rem;
+    }
+    .offers{
+      .offers-txt{
+        letter-spacing: 1px;
+      }
+      .offers_1{
+        background-color: rgba(239, 239, 239, 1);
+        h5{
+          border-bottom: 1px dashed;
+        }
+      }
+    }
+  }
+  // ================================ contact section =======================
+  .contact-sec{
+    background-image: url("/public/images/Services\ Section\ 4.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+  }
+  .contact-head{
+    font-size: 2.9rem;
+    letter-spacing: 1px;
+  }
+}

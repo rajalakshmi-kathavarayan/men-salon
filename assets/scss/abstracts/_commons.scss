@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.head2{
+    font-family: 'STIX Two Text', serif;
+    font-weight: 400;
+    line-height: 104px;
+    letter-spacing: 0em;
+    @include media-min-lg{
+        font-size: 53px;
+    }
+}
+input,select{
+    background: transparent !important;
+}
+.btn3{
+    background-color: linear-gradient(90deg, #fd006a 0%, #d700b5 100%) !important;
+}
+.lorem{
+    @include media-min-lg{
+        position: absolute;
+        left:21%;
+        letter-spacing: 4px;
+        font-size: 16px;
+    }
+}
+.b-border{
+    @include media-min-lg{
+        border-top: 1px dotted;
+        border-right: 1px dotted;
+    }
+    
+}
+.t-border{
+    @include media-min-lg{
+        border-left: 1px dotted;
+        border-bottom: 1px dotted;
+    }
+   
+}
+.lorem1{
+    @include media-min-lg{
+        position: absolute;
+        left:20%;
+        font-size: 16px;
+    }
+}
+.lorem2{
+    @include media-min-lg{
+        position: absolute;
+        left:32%;
+        letter-spacing: 4px;
+        font-size: 16px;
+    }
+}
+.lorem3{
+    @include media-min-lg{
+        position: absolute;
+        left:29%;
+        letter-spacing: 4px;
+        font-size: 16px;
+    }
+}
+.about-text1{
+    .b-border{
+        @include media-min-lg{
+            border-top: 2px solid;
+            border-right: 2px solid;
+        }
+        
+    }
+    .t-border{
+        @include media-min-lg{
+            border-left: 2px solid;
+            border-bottom: 2px solid;
+        }
+       
+    }
+}

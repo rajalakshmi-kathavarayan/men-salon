@@ -1,0 +1,50 @@
+
+    .footer-section{
+        background-image: url("/public/images/Section\ 6\ Footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family:'Sulphur Point',sans-serif !important;
+        padding: 1rem;
+        @include media-min-lg{
+            padding: 2rem 11.5rem 1rem 11.5rem;
+        }
+        
+        .footer{
+            border-bottom: 1px dashed;
+            padding: 2rem 0 1.5rem 0;
+            .footer-txt{
+                text-align: justify;
+                font-size: 1.1rem;
+                letter-spacing:1px;
+                word-spacing: 6px;
+            }
+            .links-sec{
+                ul{
+                    li{
+                        font-size: 1.1rem;
+                        line-height: 30px;  
+                        word-spacing: 5px;
+                    }
+                }
+            }
+            .hours-sec{
+                ul{
+                    li{
+                        font-size: 1.2rem;
+                        word-spacing: 6px;
+                        letter-spacing: 1px;
+                    }
+                    .bottom-border{
+                        border-bottom: 1px dashed;
+                        padding: .5rem 0;
+                    }
+                }
+            }
+        }
+        .foot1{
+            width: 90%;
+            border-bottom: 1px dotted white;
+            text-align: center;
+        }
+    }

@@ -1,0 +1,80 @@
+
+    // ======================= aboutbanner section ======================//
+  .about-banner-section {
+    background-image: url("/public/images/MicrosoftTeams-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center;
+    font-family:'Sulphur Point',sans-serif !important;
+  
+   
+
+    .navbar {
+      padding: 1.5rem 0 2rem 0;
+
+      @include media-min-lg {
+        margin: 0 0 0 9.5rem;
+      }
+      .navbar-nav {
+        a {
+          font-family: "Vanio Trial";
+          color: $pink-clr;
+          text-align: center;
+          @include media-min-xl {
+            padding: 0 1.5rem;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+    }.head1{
+      font-family: Impact;
+      font-weight: 400;
+      line-height: 132px;
+      letter-spacing: 0em;
+      @include media-min-lg{
+        font-size: 78px;
+        padding: 8rem 0 10rem 0;
+      }
+  }
+
+     
+    }
+  
+//   ============================== Who we are section ===========================//
+  .who-we-section {
+    background-color: $brown;
+    font-family: "Sulphur Point";
+    padding: 1rem;
+    @include media-min-xl {
+      padding: 6rem 12rem;
+    }
+    .who-we-head {
+      font-size: 4rem;
+    }
+    .about-txt {
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+//   ================================= Our story ==============================//
+    .our-story-section{
+        background-image: url("/public/images/sec\ 3\ our\ story.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  
+        font-family:'Sulphur Point',sans-serif !important;
+        padding: 1rem;
+        @include media-min-xl {
+            padding: 6rem 12rem;
+          }
+          .our-story-head{
+            font-size: 4rem;
+          }
+          .our-story-txt{
+            font-size: 19px;
+            letter-spacing: 1px;
+            text-align: justify;
+          }
+    }
+
